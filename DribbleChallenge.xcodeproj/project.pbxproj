@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		174AF3C826A04B300057410A /* iPhone8.png in Resources */ = {isa = PBXBuildFile; fileRef = 174AF3C726A04B300057410A /* iPhone8.png */; };
+		174AF3CA26A04B9B0057410A /* LargerSizeCategory.png in Resources */ = {isa = PBXBuildFile; fileRef = 174AF3C926A04B9B0057410A /* LargerSizeCategory.png */; };
+		174AF3CC26A04BC90057410A /* iPhone12Pro.png in Resources */ = {isa = PBXBuildFile; fileRef = 174AF3CB26A04BC90057410A /* iPhone12Pro.png */; };
+		174AF3CE26A04BE50057410A /* DarkMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 174AF3CD26A04BE50057410A /* DarkMode.png */; };
 		175E7F77269F3AEC00763D64 /* DribbleChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175E7F76269F3AEC00763D64 /* DribbleChallengeApp.swift */; };
 		175E7F79269F3AEC00763D64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175E7F78269F3AEC00763D64 /* ContentView.swift */; };
 		175E7F7B269F3AED00763D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175E7F7A269F3AED00763D64 /* Assets.xcassets */; };
@@ -21,6 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		174AF3C526A04AD10057410A /* designExample.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = designExample.webp; sourceTree = "<group>"; };
+		174AF3C726A04B300057410A /* iPhone8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone8.png; sourceTree = "<group>"; };
+		174AF3C926A04B9B0057410A /* LargerSizeCategory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LargerSizeCategory.png; sourceTree = "<group>"; };
+		174AF3CB26A04BC90057410A /* iPhone12Pro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone12Pro.png; sourceTree = "<group>"; };
+		174AF3CD26A04BE50057410A /* DarkMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkMode.png; sourceTree = "<group>"; };
 		175E7F73269F3AEC00763D64 /* DribbleChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DribbleChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		175E7F76269F3AEC00763D64 /* DribbleChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DribbleChallengeApp.swift; sourceTree = "<group>"; };
 		175E7F78269F3AEC00763D64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,9 +55,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		174AF3C626A04AD60057410A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				174AF3C526A04AD10057410A /* designExample.webp */,
+				174AF3C726A04B300057410A /* iPhone8.png */,
+				174AF3C926A04B9B0057410A /* LargerSizeCategory.png */,
+				174AF3CB26A04BC90057410A /* iPhone12Pro.png */,
+				174AF3CD26A04BE50057410A /* DarkMode.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		175E7F6A269F3AEC00763D64 = {
 			isa = PBXGroup;
 			children = (
+				174AF3C626A04AD60057410A /* images */,
 				175E7F75269F3AEC00763D64 /* DribbleChallenge */,
 				175E7F74269F3AEC00763D64 /* Products */,
 			);
@@ -146,7 +168,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174AF3CC26A04BC90057410A /* iPhone12Pro.png in Resources */,
+				174AF3CE26A04BE50057410A /* DarkMode.png in Resources */,
 				175E7F7E269F3AED00763D64 /* Preview Assets.xcassets in Resources */,
+				174AF3CA26A04B9B0057410A /* LargerSizeCategory.png in Resources */,
+				174AF3C826A04B300057410A /* iPhone8.png in Resources */,
 				175E7F7B269F3AED00763D64 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
